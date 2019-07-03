@@ -65,6 +65,12 @@
   margin-top: 100px;
 }
 
+.row p {
+  text-align: justify;
+  padding: 0 20px;
+
+}
+
 .cont_footer {
       margin-top: 100px;
 }
@@ -76,5 +82,17 @@
   .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,
   .col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {
     width: 100%;
+  }
+}
+
+@media (max-width: 786px) {
+
+  .row div img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .row div h2 {
+    text-align: center;
   }
 }

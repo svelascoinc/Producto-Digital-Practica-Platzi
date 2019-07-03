@@ -20,6 +20,11 @@ html,body{
   margin:0px;
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
 }
 
 label {
@@ -156,6 +161,11 @@ margin: 80px 0 30px 0;
   padding: 10px;
 }
 
+.modulo_pago h3,
+.modulo_pago p {
+  text-align: center;
+}
+
 .modulo_pago_images {
   max-width: 150px;
   text-align: center;
@@ -169,11 +179,24 @@ margin: 80px 0 30px 0;
   border-radius: 2px;
   border: 1px solid #000000;
   box-sizing: border-box;
+  padding: 10px;
 }
 
 .modulo_pago .main_button {
   margin-top: 10px;
 }
+
+.venta_footer {
+  bottom: 0;
+}
+
+/* Faqs */
+
+.row h1 {
+  width: 100%;
+  text-align: center;
+}
+
 
 /* Footer */
 .cont_footer {
@@ -181,12 +204,22 @@ display: flex;
 justify-content: space-between;
 background-color: var(--black-color);
 color: #ffffff;
+padding: 5px;
+height: 35px;
+margin-top: -45px;
 }
 
 .cont_footer .option {
 padding: 10px 20px;
 }
 
-.contact a {
+.option a {
+  text-decoration: none;
+  color: var(--color-white);
+}
 
+.contact a {
+  color: #7ACC2D;
+  text-decoration: none;
+  font-weight: bolder;
 }
